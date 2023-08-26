@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#izq {
+    background-color: lightpink;
+    width: 30%;
+}
+
+#der {
+    background-color: lightblue;
+    width: 70%;
+}
+
+#izq img {
+    border-radius: 100px;
+}
