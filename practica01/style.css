@@ -5,57 +5,63 @@ html {
 body {
     box-sizing: border-box;
     margin: 0;
-}
-
-
-body {
     font-family: 'Times New Roman', Times, serif;
-}
-
-.grid-layout {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    background-color: #222222;
-    grid-auto-flow: column;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 25% 25% 25% 25%;
-}
-
-.box {
-    background-color: #222222;
-    color: #ffffff;
-    padding: 1rem;
-    width: 80%;
-}
-
-.pic {
-    border-radius: 100%;
-    border: 4px solid #ffffff;
 }
 
 h1 {
     text-align: center;
 }
 
+#ul {
+    font-size: large;
+}
+
+.li {
+    font-size: small;
+}
+
+.grid-layout {  
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: #bde0fe;
+    grid-auto-flow: column;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.box {
+    background-color: #cdb4db;
+    color: #222222;
+    padding: 1rem;
+    width: 80%;
+}
+
+.pic {
+    border-radius: 100%;
+    border: 4px solid #222222;
+    width: 100%;
+    height: auto;
+}
+
 .b1 {
     justify-self: center;
     align-self: center;
-    border-bottom: solid #ffffff;
-    text-align: center;
+    border-bottom: solid #222;
+    justify-content: center;
 }
 
 .b2 {
     justify-self: center;
     align-self: center;
-    border-bottom: solid #ffffff;
+    border-bottom: solid #222;
     text-align: left;
 }
 
 .b3 {
     justify-self: center;
     align-self: center;
-    border-bottom: solid #ffffff;
+    border-bottom: solid #222;
     text-align: left;
 }
 
@@ -65,10 +71,16 @@ h1 {
     text-align: left;
 }
 
-.b5 {
-    grid-row: 1/5;
-    justify-self: center;
-    align-self: start;
+.curriculum-title {
     text-align: left;
+    font-style: italic;
+}
+
+.b5 {
+    grid-row: 1/ span 5;
+    justify-self: center;
+    align-self: stretch;
+    text-align: left;
+    background-color: #bde0fe;
 }
 
