@@ -7,20 +7,22 @@ function handleEvent(e) {
 
     if (!username) {
         // console.log("Introduce tu usuario");
-        const alerta = document.createElement('p');
+ /*        const alerta = document.createElement('p');
         alerta.innerHTML = "¡Introduce tu usuario!";
-        document.body.appendChild(alerta);
+        document.body.appendChild(alerta); */
+        alert("¡Introduce tu usuario!")
     } 
     else if (password.length <= 5) {
         // console.log("Tu contraseña debe tener más de 5 caracteres");
-        const alerta = document.createElement('p');
-        alerta.innerHTML = "¡Tu contraseña debe tener más de 5 caracteres!";
-        document.body.appendChild(alerta);
+    /*      const alerta = document.createElement('p');
+            alerta.innerHTML = "¡Tu contraseña debe tener más de 5 caracteres!";
+            document.body.appendChild(alerta); */
+        alert("¡Tu contraseña debe tener más de 5 caracteres!")
     }
     else {
         // console.log("Bienvenido");
         const alerta = document.createElement('p');
-        alerta.innerHTML = "Bienvenido :)";
+        alerta.innerHTML = `Bienvenido ${username} :)`;
         document.body.appendChild(alerta);
     }
 }
