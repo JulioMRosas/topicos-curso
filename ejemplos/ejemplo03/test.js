@@ -24,6 +24,8 @@ console.log(main, secondary);
 
 [main, secondary] = [secondary, main]; */
 
-const [starter, main] = restaurant.order(1, 0)
+/* const [starter, main] = restaurant.order(1, 0)
 console.log(starter);
-console.log(main);
+console.log(main); */
+
+

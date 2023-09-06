@@ -4,7 +4,7 @@
 }
 
 body {
-    display: grid;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,17 @@ body {
     background-image: linear-gradient(
         to bottom,
         rgba(254, 254, 254, 1),
-        rgba(135, 47, 236, 1)
+        rgb(47, 230, 236)
       );
+}
+ h1 {
+    background-color: aliceblue;
+    border: 2px solid #222;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1:hover {
+    background-color: rgb(84, 87, 90);
 }
