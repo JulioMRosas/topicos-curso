@@ -17,6 +17,10 @@ export default function Form() {
             labelText: "Correo electrónico",
             placeholderText: "Escriba su dirección de correo electrónico"
         },
+        {
+            labelText: "Síntomas",
+            placeholderText: "Escriba sus síntomas"
+        },
     ];
 
     for (let i = 0; i < inputs.length; i++) {

@@ -17,15 +17,19 @@ html, body {
 .header {
   padding: 20px;
   background-color: #1b512d;
-  color: #fffcf2;
+  color: #def4c6;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .form {
+  display: grid;
   background-color: #1b512d;
   margin: 3%;
   padding: 3%;
   border-radius: 12px;
-  display: grid;
   height: 75%;
   justify-items: start;
 }
@@ -34,13 +38,18 @@ html, body {
   display: grid;
   width: 100%;
   padding: 10px;
+  margin: 4px;
+  border-radius: 12px;
+  background-color: #2b8660;
 }
 
 .label {
   color: #def4c6;
   align-self: center;
   font-weight: bolder;
-font-size: larger;}
+  font-size: larger;
+  text-shadow: 1px 1px 2px black;
+}
 
 .input {
   width: 100%;
@@ -52,6 +61,7 @@ font-size: larger;}
 }
 
 .button-container {
+  display: grid;
   padding: 10px;
   align-self: center;
   justify-self: center;
@@ -64,8 +74,10 @@ font-size: larger;}
   border-radius: 12px;
   color: #333;
   background-color: white;
+  justify-self: center;
+  align-self: center;
 }
 
 .button:hover {
-  background-color: #b9b5b591;
+  background-color: #2b8660;
 }
